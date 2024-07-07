@@ -1,0 +1,12 @@
+{
+    "ruby.useLanguageServer": true,
+    "solargraph.diagnostics": true,
+    "solargraph.formatting": true,
+    "solargraph.completion": true,
+    "solargraph.hover": true,
+    "solargraph.symbols": true,
+    "solargraph.references": true,
+    "solargraph.rename": true,
+    "solargraph.autoformat": true
+  }
+  

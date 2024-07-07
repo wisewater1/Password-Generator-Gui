@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Generator</title>
+</head>
+<body>
+  <h1>Generate a Secure Password</h1>
+  <form action="/generate" method="post">
+    <label for="length">Password Length:</label>
+    <input type="number" name="length" id="length" required><br>
+    <label><input type="checkbox" name="uppercase" checked> Include Uppercase Letters</label><br>
+    <label><input type="checkbox" name="lowercase" checked> Include Lowercase Letters</label><br>
+    <label><input type="checkbox" name="numbers" checked> Include Numbers</label><br>
+    <label><input type="checkbox" name="special" checked> Include Special Characters</label><br>
+    <button type="submit">Generate Password</button>
+  </form>
+</body>
+</html>
